@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+    </style>
+
+    <style name="RedThme" parent="android:Theme.Material">
+        <!--通知栏颜色-->
+        <item name="android:colorPrimaryDark">#ff3367d6</item>
+        <!--标题栏颜色-->
+        <item name="android:colorPrimary">#ff4285f4</item>
+        <!--窗口颜色-->
+        <item name="android:windowBackground">@color/window_color</item>
+        <!--底部操作栏颜色-->
+        <item name="android:navigationBarColor">#ff000000</item>
+    </style>
+
+    <style name="OtherThme" parent="android:Theme.Material">
+        <!--通知栏颜色-->
+        <item name="android:colorPrimaryDark">#ff80d610</item>
+        <!--标题栏颜色-->
+        <item name="android:colorPrimary">#fff4c70e</item>
+        <!--窗口颜色-->
+        <item name="android:windowBackground">@color/window_color</item>
+        <!--底部操作栏颜色-->
+        <item name="android:navigationBarColor">#ffffae1f</item>
+    </style>
+</resources>
